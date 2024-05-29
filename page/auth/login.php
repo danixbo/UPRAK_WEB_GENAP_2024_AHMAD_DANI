@@ -31,7 +31,7 @@ if (isset($_POST['username'])) {
                 header("Location: ../../index.php");
                 exit();
             } else {
-                $pesan_error = "Password tidak sesuai.";
+                $pesan_error = "Password tidak sesuai";
             }
             
         }

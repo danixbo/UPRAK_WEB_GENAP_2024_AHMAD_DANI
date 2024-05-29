@@ -23,7 +23,7 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="../page/auth/login.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-fingerprint"></i>
                 </span>
                 <span class="hide-menu">Login</span>
               </a>
@@ -31,9 +31,37 @@
             <li class="sidebar-item">
               <a class="sidebar-link" href="../page/auth/logout.php" aria-expanded="false">
                 <span>
-                  <i class="ti ti-layout-dashboard"></i>
+                  <i class="ti ti-logout"></i>
                 </span>
                 <span class="hide-menu">Logout</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">CRUD</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="../SPP/viewSPP.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-coin"></i>
+                </span>
+                <span class="hide-menu">View SPP</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="../Jurusan/viewJurusan.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-book"></i>
+                </span>
+                <span class="hide-menu">View Jurusan</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="../Kelas/viewKelas.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-armchair"></i>
+                </span>
+                <span class="hide-menu">View Kelas</span>
               </a>
             </li>
         </nav>

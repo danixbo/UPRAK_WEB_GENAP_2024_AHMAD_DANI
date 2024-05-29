@@ -24,6 +24,25 @@ class database{
         }
         return $data;
     }
+    
+    public function execute($query, $params = []) {
+        $statement = $this->conn->prepare($query);
+        if (!$statement) {
+            die("Error in preparing statement: " . $this->conn->error);
+        }
+        
+        if (!empty($params)) {
+            $types = str_repeat('s', count($params));
+            $statement->bind_param($types, ...$params);
+        }
+        
+        if (!$statement->execute()) {
+            die("Error in executing statement: " . $statement->error);
+        }
+        
+        $statement->close();
+    }
+    
     public function change($query) {
         $result = $this->conn->query($query);
         if ($result) {
@@ -33,4 +52,5 @@ class database{
         }
     }
 }
+
 ?>
