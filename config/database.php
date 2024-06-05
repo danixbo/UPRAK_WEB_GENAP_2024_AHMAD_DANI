@@ -1,7 +1,7 @@
 <?php
 
 class database{
-    public $database = 'UPRAK_AHMAD_DANI';
+    public $database = 'uprak_dani_baru';
     public $host = 'localhost';
     public $user = 'root';
     public $pass = '';

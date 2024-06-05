@@ -13,7 +13,7 @@
               <span class="hide-menu">Home</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="" aria-expanded="false">
+              <a class="sidebar-link" href="../index.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-layout-dashboard"></i>
                 </span>
@@ -41,7 +41,7 @@
               <span class="hide-menu">CRUD</span>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="../SPP/viewSPP.php" aria-expanded="false">
+              <a class="sidebar-link" href="../page/CRUD/SPP/viewSPP.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-coin"></i>
                 </span>
@@ -49,7 +49,7 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="../Jurusan/viewJurusan.php" aria-expanded="false">
+              <a class="sidebar-link" href="../page/CRUD/Jurusan/viewJurusan.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-book"></i>
                 </span>
@@ -57,11 +57,31 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link" href="../Kelas/viewKelas.php" aria-expanded="false">
+              <a class="sidebar-link" href="../page/CRUD/Kelas/viewKelas.php" aria-expanded="false">
                 <span>
                   <i class="ti ti-armchair"></i>
                 </span>
                 <span class="hide-menu">View Kelas</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="../page/CRUD/Siswa/viewSiswa.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-users"></i>
+                </span>
+                <span class="hide-menu">View Siswa</span>
+              </a>
+            </li>
+            <li class="nav-small-cap">
+              <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+              <span class="hide-menu">Lainnya</span>
+            </li>
+            <li class="sidebar-item">
+              <a class="sidebar-link" href="../page/Lainnya/Tagihan.php" aria-expanded="false">
+                <span>
+                  <i class="ti ti-brand-cashapp"></i>
+                </span>
+                <span class="hide-menu">Data Tagihan</span>
               </a>
             </li>
         </nav>
